@@ -1,6 +1,6 @@
 # kali
 kali
-
+```
 #!/bin/bash
 #set ip address from arguments
 IP=$1
@@ -14,3 +14,4 @@ set USERNAME root;\
 set PASS_FILE /usr/share/wordlists/metasploit/http_default_pass.txt;\
 run;\
 exit -y;" | grep "\[+\]" >> demo.log
+```
